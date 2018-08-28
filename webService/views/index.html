@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="Keywords" content="">
+    <meta name="Description" content="">
+  <title>医真web测试</title>
+  <link rel="shortcut icon" href="/static/images/favicon.ico">
+  <link rel="stylesheet" href="/static/layui/css/layui.css">
+  <link rel="stylesheet" href="/static/css/okadmin.css"> 
+  <script type="text/javascript" src="/static/layui/jquery-1.9.1.min.js"></script> 
+  <script type="text/javascript" src="/static/layui/layui.all.js"></script>  
+  <script src="/static/js/okadmin.js"></script> 
+
+<script type="text/javascript">
+ var form;
+;!function(){
+  //无需再执行layui.use()方法加载模块，直接使用即可
+   form = layui.form ;
+   element = layui.element;
+   layer = layui.layer;  
+}();
+</script> 
+
+</head>
+<body class="layui-layout-body">
+<div class="layui-layout layui-layout-admin">
+
+  <div class="layui-header">
+    <div class="layui-logo"> <a href="/index"><img src="/static/images/logo-2018.png"></img></a></div>
+ 	<div class="menu-switch">
+         <i class="iconfont icon-caidan"></i>
+     </div>
+      
+    </ul>
+
+    <ul class="layui-nav layui-layout-right">
+      <li class="layui-nav-item">
+        <a href="javascript:;" href="/index">
+          <img src="/static/images/logo.png" class="layui-nav-img">
+         医真测试
+        </a>
+        <!--<dl class="layui-nav-child">
+          <dd><a href="">基本资料</a></dd>
+          <dd><a href="">安全设置</a></dd>
+        </dl>-->
+      </li>
+		<!--  <li class="layui-nav-item"><a href="#">退了</a> </li>-->
+      <li class="layui-nav-item" id="times">2018年08月04日 星期六 09:38 </li>
+    </ul> 
+</div>   
+ 
+  
+  <div class="layui-side layui-bg-black">
+    <div class="layui-side-scroll" id="menu">
+      <!-- 左侧导航区域（可配合layui已有的垂直导航） -->
+      <ul class="layui-nav layui-nav-tree" lay-shrink="all">
+        <li class="layui-nav-item layui-nav-itemed">
+          <a class="" href="javascript:;">接口测试
+		   <span class="layui-nav-more"></span>
+		  </a>
+		  <dl class="layui-nav-child"> 
+            <dd><a href="javascript:;" path="/indexCurrency" tab-id="1-1">通用接口</a></dd>
+			<dd><a href="javascript:;" path="/alldengji" tab-id="1-2">所有机构登记接口</a></dd>
+			<dd><a href="javascript:;" path="/wuxidengji" tab-id="1-3">无锡登记接口</a></dd>
+			<dd><a href="javascript:;" path="/mic" tab-id="1-4">一脉阳光保存预约信息接口</a></dd>
+          </dl> 
+        </li> 
+		<li class="layui-nav-item">
+			<a href="javascript:;">其他<span class="layui-nav-more"></span>
+     		</a>
+ 			<dl class="layui-nav-child">  
+			<dd><a href="javascript:;"  path="/help" tab-id="2-1">其他</a></dd>
+          </dl> 
+		</li>
+      </ul>
+    </div>
+  </div>
+  
+     <!-- 内容主体区域 -->
+    <div class="content-body">
+        <div class="layui-tab layui-tab-brief" lay-filter="ok-tab" lay-allowClose="true">
+            <ul class="layui-tab-title">
+                <li class="layui-this"><i class="layui-icon">&#xe68e;</i> 欢迎使用</li>
+            </ul>
+            <div class="layui-tab-content">
+                <div class="layui-tab-item layui-show">
+					<iframe src="/main" frameborder="0" scrolling="yes"  id="demoAdmin" style="width: 100%; height: 800px;"></iframe>   
+                </div>
+            </div>
+        </div>
+    </div>
+
+  
+  <div class="layui-footer">
+    <!-- 底部固定区域 -->
+   <!-- © layui.com - 底部固定区域-->
+  </div>
+</div> 
+  
+<script> 
+$(function(){
+	reflushTime();
+	setInterval("reflushTime()", 1000); // 加载时间
+
+	$('#menu li').on('click', function(){
+
+		if($('#menu li').hasClass('layui-nav-itemed')){
+			$('#menu li').removeClass('layui-nav-itemed'); 
+			//$(this).removeClass('layui-nav-itemed');
+		}else{
+			//$('#menu li').addClass('layui-nav-itemed'); 
+		    $(this).addClass('layui-nav-itemed');
+		} 
+	});
+	
+	
+	$('#menu dd').on('click', function(){ 
+		$('#menu dd').removeClass('layui-this'); 
+	    $(this).addClass('layui-this') ;
+  
+	})
+});
+
+
+
+
+function reflushTime(){
+		var showDay=new Array('星期日','星期一','星期二','星期三','星期四','星期五','星期六');
+		var time = new Date();
+		var date=time.getDay();
+		var timeDateVar = time.Format('yyyy年MM月dd日');
+		var timeClockVar = time.Format('hh:mm');
+		var timeWeekVar = showDay[date];
+		
+		$('#times').text(timeDateVar + ' ' + timeWeekVar + ' ' + timeClockVar);		
+	}
+	
+	Date.prototype.Format = function (fmt) { //author: meizz 
+	    var o = {
+	        "M+": this.getMonth() + 1, //月份 
+	        "d+": this.getDate(), //日 
+	        "h+": this.getHours(), //小时 
+	        "m+": this.getMinutes(), //分 
+	        "s+": this.getSeconds(), //秒 
+	        "q+": Math.floor((this.getMonth() + 3) / 3), //季度 
+	        "S": this.getMilliseconds() //毫秒 
+	    };
+	    if (/(y+)/.test(fmt)) fmt = fmt.replace(RegExp.$1, (this.getFullYear() + "").substr(4 - RegExp.$1.length));
+	    for (var k in o)
+	    if (new RegExp("(" + k + ")").test(fmt)) fmt = fmt.replace(RegExp.$1, (RegExp.$1.length == 1) ? (o[k]) : (("00" + o[k]).substr(("" + o[k]).length)));
+	    return fmt;
+	}
+	
+</script>
+</body>
+</html>

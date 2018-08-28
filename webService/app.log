@@ -1,0 +1,245 @@
+2018/08/17 09:02:12.137 [D] [main.go:28] 	
+					 __   __  _   _____  _                     __   __                
+					 \ \ / / (_) |__  / | |__     ___   _ __   \ \ / /  _   _   _ __  
+					  \ V /  | |   / /  | '_ \   / _ \ | '_ \   \ V /  | | | | | '_ \ 
+					   | |   | |  / /_  | | | | |  __/ | | | |   | |   | |_| | | | | |
+					   |_|   |_| /____| |_| |_|  \___| |_| |_|   |_|    \__,_| |_| |_|
+					                                                                  
+
+2018/08/17 09:02:12.138 [D] [main.go:47] ★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★
+2018/08/17 09:02:12.138 [D] [main.go:48]                                                          
+2018/08/17 09:02:12.138 [D] [main.go:49]                                                          
+2018/08/17 09:02:12.138 [D] [main.go:50]               Yi Zhen Yun Web Service Test 启动           
+2018/08/17 09:02:12.138 [D] [main.go:51]                                                          
+2018/08/17 09:02:12.138 [D] [main.go:52]                                                          
+2018/08/17 09:02:12.138 [D] [main.go:53] ★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★
+2018/08/17 09:02:12.209 [I] [app.go:197] http server Running on http://:9090
+2018/08/21 10:14:33.476 [D] [main.go:28] 	
+					 __   __  _   _____  _                     __   __                
+					 \ \ / / (_) |__  / | |__     ___   _ __   \ \ / /  _   _   _ __  
+					  \ V /  | |   / /  | '_ \   / _ \ | '_ \   \ V /  | | | | | '_ \ 
+					   | |   | |  / /_  | | | | |  __/ | | | |   | |   | |_| | | | | |
+					   |_|   |_| /____| |_| |_|  \___| |_| |_|   |_|    \__,_| |_| |_|
+					                                                                  
+
+2018/08/21 10:14:33.476 [D] [main.go:47] ★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★
+2018/08/21 10:14:33.476 [D] [main.go:48]                                                          
+2018/08/21 10:14:33.476 [D] [main.go:49]                                                          
+2018/08/21 10:14:33.476 [D] [main.go:50]               Yi Zhen Yun Web Service Test 启动           
+2018/08/21 10:14:33.476 [D] [main.go:51]                                                          
+2018/08/21 10:14:33.476 [D] [main.go:52]                                                          
+2018/08/21 10:14:33.476 [D] [main.go:53] ★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★
+2018/08/21 10:14:33.664 [I] [app.go:197] http server Running on http://:9090
+2018/08/21 15:22:51.328 [D] [main.go:28] 	
+					 __   __  _   _____  _                     __   __                
+					 \ \ / / (_) |__  / | |__     ___   _ __   \ \ / /  _   _   _ __  
+					  \ V /  | |   / /  | '_ \   / _ \ | '_ \   \ V /  | | | | | '_ \ 
+					   | |   | |  / /_  | | | | |  __/ | | | |   | |   | |_| | | | | |
+					   |_|   |_| /____| |_| |_|  \___| |_| |_|   |_|    \__,_| |_| |_|
+					                                                                  
+
+2018/08/21 15:22:51.328 [D] [main.go:47] ★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★
+2018/08/21 15:22:51.328 [D] [main.go:48]                                                          
+2018/08/21 15:22:51.328 [D] [main.go:49]                                                          
+2018/08/21 15:22:51.328 [D] [main.go:50]               Yi Zhen Yun Web Service Test 启动           
+2018/08/21 15:22:51.328 [D] [main.go:51]                                                          
+2018/08/21 15:22:51.328 [D] [main.go:52]                                                          
+2018/08/21 15:22:51.328 [D] [main.go:53] ★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★
+2018/08/21 15:22:51.529 [I] [app.go:197] http server Running on http://:9090
+2018/08/21 15:28:27.501 [D] [template.go:69] template Execute err: html/template:error/404.html: ends in a non-text context: {stateURL delimDoubleQuote urlPartPreQuery jsCtxRegexp attrURL elementNone <nil>}
+2018/08/21 15:28:27.501 [C] [config.go:172] the request url is  /updateStatus
+2018/08/21 15:28:27.501 [C] [config.go:173] Handler crashed with error html/template:error/404.html: ends in a non-text context: {stateURL delimDoubleQuote urlPartPreQuery jsCtxRegexp attrURL elementNone <nil>}
+2018/08/21 15:28:27.501 [C] [config.go:179] C:/go/src/runtime/asm_amd64.s:509
+2018/08/21 15:28:27.501 [C] [config.go:179] C:/go/src/runtime/panic.go:491
+2018/08/21 15:28:27.501 [C] [config.go:179] D:/goSrc/src/github.com/astaxie/beego/error.go:469
+2018/08/21 15:28:27.501 [C] [config.go:179] D:/goSrc/src/github.com/astaxie/beego/error.go:432
+2018/08/21 15:28:27.501 [C] [config.go:179] D:/goSrc/src/github.com/astaxie/beego/router.go:737
+2018/08/21 15:28:27.501 [C] [config.go:179] C:/go/src/net/http/server.go:2619
+2018/08/21 15:28:27.501 [C] [config.go:179] C:/go/src/net/http/server.go:1801
+2018/08/21 15:28:27.501 [C] [config.go:179] C:/go/src/runtime/asm_amd64.s:2337
+2018/08/21 15:28:27.605 [D] [template.go:69] template Execute err: html/template:error/404.html: ends in a non-text context: {stateURL delimDoubleQuote urlPartPreQuery jsCtxRegexp attrURL elementNone <nil>}
+2018/08/21 15:28:27.605 [C] [config.go:172] the request url is  /updateStatus
+2018/08/21 15:28:27.605 [C] [config.go:173] Handler crashed with error html/template:error/404.html: ends in a non-text context: {stateURL delimDoubleQuote urlPartPreQuery jsCtxRegexp attrURL elementNone <nil>}
+2018/08/21 15:28:27.605 [C] [config.go:179] C:/go/src/runtime/asm_amd64.s:509
+2018/08/21 15:28:27.605 [C] [config.go:179] C:/go/src/runtime/panic.go:491
+2018/08/21 15:28:27.605 [C] [config.go:179] D:/goSrc/src/github.com/astaxie/beego/error.go:469
+2018/08/21 15:28:27.605 [C] [config.go:179] D:/goSrc/src/github.com/astaxie/beego/error.go:432
+2018/08/21 15:28:27.605 [C] [config.go:179] D:/goSrc/src/github.com/astaxie/beego/router.go:737
+2018/08/21 15:28:27.605 [C] [config.go:179] C:/go/src/net/http/server.go:2619
+2018/08/21 15:28:27.605 [C] [config.go:179] C:/go/src/net/http/server.go:1801
+2018/08/21 15:28:27.605 [C] [config.go:179] C:/go/src/runtime/asm_amd64.s:2337
+2018/08/21 16:32:17.860 [D] [main.go:28] 	
+					 __   __  _   _____  _                     __   __                
+					 \ \ / / (_) |__  / | |__     ___   _ __   \ \ / /  _   _   _ __  
+					  \ V /  | |   / /  | '_ \   / _ \ | '_ \   \ V /  | | | | | '_ \ 
+					   | |   | |  / /_  | | | | |  __/ | | | |   | |   | |_| | | | | |
+					   |_|   |_| /____| |_| |_|  \___| |_| |_|   |_|    \__,_| |_| |_|
+					                                                                  
+
+2018/08/21 16:32:17.860 [D] [main.go:47] ★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★
+2018/08/21 16:32:17.860 [D] [main.go:48]                                                          
+2018/08/21 16:32:17.860 [D] [main.go:49]                                                          
+2018/08/21 16:32:17.860 [D] [main.go:50]               Yi Zhen Yun Web Service Test 启动           
+2018/08/21 16:32:17.860 [D] [main.go:51]                                                          
+2018/08/21 16:32:17.860 [D] [main.go:52]                                                          
+2018/08/21 16:32:17.860 [D] [main.go:53] ★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★
+2018/08/21 16:32:17.931 [I] [app.go:197] http server Running on http://:9090
+2018/08/21 16:48:09.490 [D] [template.go:69] template Execute err: html/template:error/404.html: ends in a non-text context: {stateURL delimDoubleQuote urlPartPreQuery jsCtxRegexp attrURL elementNone <nil>}
+2018/08/21 16:48:09.490 [C] [config.go:172] the request url is  /updateStatus
+2018/08/21 16:48:09.490 [C] [config.go:173] Handler crashed with error html/template:error/404.html: ends in a non-text context: {stateURL delimDoubleQuote urlPartPreQuery jsCtxRegexp attrURL elementNone <nil>}
+2018/08/21 16:48:09.490 [C] [config.go:179] C:/go/src/runtime/asm_amd64.s:509
+2018/08/21 16:48:09.490 [C] [config.go:179] C:/go/src/runtime/panic.go:491
+2018/08/21 16:48:09.490 [C] [config.go:179] D:/goSrc/src/github.com/astaxie/beego/error.go:469
+2018/08/21 16:48:09.490 [C] [config.go:179] D:/goSrc/src/github.com/astaxie/beego/error.go:432
+2018/08/21 16:48:09.490 [C] [config.go:179] D:/goSrc/src/github.com/astaxie/beego/router.go:737
+2018/08/21 16:48:09.490 [C] [config.go:179] C:/go/src/net/http/server.go:2619
+2018/08/21 16:48:09.490 [C] [config.go:179] C:/go/src/net/http/server.go:1801
+2018/08/21 16:48:09.490 [C] [config.go:179] C:/go/src/runtime/asm_amd64.s:2337
+2018/08/21 16:48:09.523 [D] [template.go:69] template Execute err: html/template:error/404.html: ends in a non-text context: {stateURL delimDoubleQuote urlPartPreQuery jsCtxRegexp attrURL elementNone <nil>}
+2018/08/21 16:48:09.523 [C] [config.go:172] the request url is  /updateStatus
+2018/08/21 16:48:09.523 [C] [config.go:173] Handler crashed with error html/template:error/404.html: ends in a non-text context: {stateURL delimDoubleQuote urlPartPreQuery jsCtxRegexp attrURL elementNone <nil>}
+2018/08/21 16:48:09.523 [C] [config.go:179] C:/go/src/runtime/asm_amd64.s:509
+2018/08/21 16:48:09.523 [C] [config.go:179] C:/go/src/runtime/panic.go:491
+2018/08/21 16:48:09.523 [C] [config.go:179] D:/goSrc/src/github.com/astaxie/beego/error.go:469
+2018/08/21 16:48:09.523 [C] [config.go:179] D:/goSrc/src/github.com/astaxie/beego/error.go:432
+2018/08/21 16:48:09.523 [C] [config.go:179] D:/goSrc/src/github.com/astaxie/beego/router.go:737
+2018/08/21 16:48:09.523 [C] [config.go:179] C:/go/src/net/http/server.go:2619
+2018/08/21 16:48:09.523 [C] [config.go:179] C:/go/src/net/http/server.go:1801
+2018/08/21 16:48:09.524 [C] [config.go:179] C:/go/src/runtime/asm_amd64.s:2337
+2018/08/21 16:52:55.153 [D] [template.go:69] template Execute err: html/template:error/404.html: ends in a non-text context: {stateURL delimDoubleQuote urlPartPreQuery jsCtxRegexp attrURL elementNone <nil>}
+2018/08/21 16:52:55.153 [C] [config.go:172] the request url is  /updateStatus
+2018/08/21 16:52:55.153 [C] [config.go:173] Handler crashed with error html/template:error/404.html: ends in a non-text context: {stateURL delimDoubleQuote urlPartPreQuery jsCtxRegexp attrURL elementNone <nil>}
+2018/08/21 16:52:55.153 [C] [config.go:179] C:/go/src/runtime/asm_amd64.s:509
+2018/08/21 16:52:55.153 [C] [config.go:179] C:/go/src/runtime/panic.go:491
+2018/08/21 16:52:55.153 [C] [config.go:179] D:/goSrc/src/github.com/astaxie/beego/error.go:469
+2018/08/21 16:52:55.153 [C] [config.go:179] D:/goSrc/src/github.com/astaxie/beego/error.go:432
+2018/08/21 16:52:55.153 [C] [config.go:179] D:/goSrc/src/github.com/astaxie/beego/router.go:737
+2018/08/21 16:52:55.153 [C] [config.go:179] C:/go/src/net/http/server.go:2619
+2018/08/21 16:52:55.153 [C] [config.go:179] C:/go/src/net/http/server.go:1801
+2018/08/21 16:52:55.153 [C] [config.go:179] C:/go/src/runtime/asm_amd64.s:2337
+2018/08/21 16:52:55.154 [D] [template.go:69] template Execute err: html/template:error/404.html: ends in a non-text context: {stateURL delimDoubleQuote urlPartPreQuery jsCtxRegexp attrURL elementNone <nil>}
+2018/08/21 16:52:55.154 [C] [config.go:172] the request url is  /updateStatus
+2018/08/21 16:52:55.154 [C] [config.go:173] Handler crashed with error html/template:error/404.html: ends in a non-text context: {stateURL delimDoubleQuote urlPartPreQuery jsCtxRegexp attrURL elementNone <nil>}
+2018/08/21 16:52:55.154 [C] [config.go:179] C:/go/src/runtime/asm_amd64.s:509
+2018/08/21 16:52:55.154 [C] [config.go:179] C:/go/src/runtime/panic.go:491
+2018/08/21 16:52:55.154 [C] [config.go:179] D:/goSrc/src/github.com/astaxie/beego/error.go:469
+2018/08/21 16:52:55.154 [C] [config.go:179] D:/goSrc/src/github.com/astaxie/beego/error.go:432
+2018/08/21 16:52:55.154 [C] [config.go:179] D:/goSrc/src/github.com/astaxie/beego/router.go:737
+2018/08/21 16:52:55.154 [C] [config.go:179] C:/go/src/net/http/server.go:2619
+2018/08/21 16:52:55.154 [C] [config.go:179] C:/go/src/net/http/server.go:1801
+2018/08/21 16:52:55.154 [C] [config.go:179] C:/go/src/runtime/asm_amd64.s:2337
+2018/08/21 17:39:12.040 [D] [template.go:69] template Execute err: html/template:error/404.html: ends in a non-text context: {stateURL delimDoubleQuote urlPartPreQuery jsCtxRegexp attrURL elementNone <nil>}
+2018/08/21 17:39:12.040 [C] [config.go:172] the request url is  /updateStatus
+2018/08/21 17:39:12.040 [C] [config.go:173] Handler crashed with error html/template:error/404.html: ends in a non-text context: {stateURL delimDoubleQuote urlPartPreQuery jsCtxRegexp attrURL elementNone <nil>}
+2018/08/21 17:39:12.040 [C] [config.go:179] C:/go/src/runtime/asm_amd64.s:509
+2018/08/21 17:39:12.040 [C] [config.go:179] C:/go/src/runtime/panic.go:491
+2018/08/21 17:39:12.040 [C] [config.go:179] D:/goSrc/src/github.com/astaxie/beego/error.go:469
+2018/08/21 17:39:12.041 [C] [config.go:179] D:/goSrc/src/github.com/astaxie/beego/error.go:432
+2018/08/21 17:39:12.041 [C] [config.go:179] D:/goSrc/src/github.com/astaxie/beego/router.go:737
+2018/08/21 17:39:12.041 [C] [config.go:179] C:/go/src/net/http/server.go:2619
+2018/08/21 17:39:12.041 [C] [config.go:179] C:/go/src/net/http/server.go:1801
+2018/08/21 17:39:12.041 [C] [config.go:179] C:/go/src/runtime/asm_amd64.s:2337
+2018/08/21 17:39:12.068 [D] [template.go:69] template Execute err: html/template:error/404.html: ends in a non-text context: {stateURL delimDoubleQuote urlPartPreQuery jsCtxRegexp attrURL elementNone <nil>}
+2018/08/21 17:39:12.068 [C] [config.go:172] the request url is  /updateStatus
+2018/08/21 17:39:12.068 [C] [config.go:173] Handler crashed with error html/template:error/404.html: ends in a non-text context: {stateURL delimDoubleQuote urlPartPreQuery jsCtxRegexp attrURL elementNone <nil>}
+2018/08/21 17:39:12.068 [C] [config.go:179] C:/go/src/runtime/asm_amd64.s:509
+2018/08/21 17:39:12.068 [C] [config.go:179] C:/go/src/runtime/panic.go:491
+2018/08/21 17:39:12.068 [C] [config.go:179] D:/goSrc/src/github.com/astaxie/beego/error.go:469
+2018/08/21 17:39:12.068 [C] [config.go:179] D:/goSrc/src/github.com/astaxie/beego/error.go:432
+2018/08/21 17:39:12.068 [C] [config.go:179] D:/goSrc/src/github.com/astaxie/beego/router.go:737
+2018/08/21 17:39:12.068 [C] [config.go:179] C:/go/src/net/http/server.go:2619
+2018/08/21 17:39:12.068 [C] [config.go:179] C:/go/src/net/http/server.go:1801
+2018/08/21 17:39:12.068 [C] [config.go:179] C:/go/src/runtime/asm_amd64.s:2337
+2018/08/21 17:52:59.909 [D] [template.go:69] template Execute err: html/template:error/404.html: ends in a non-text context: {stateURL delimDoubleQuote urlPartPreQuery jsCtxRegexp attrURL elementNone <nil>}
+2018/08/21 17:52:59.909 [C] [config.go:172] the request url is  /updateStatus
+2018/08/21 17:52:59.909 [C] [config.go:173] Handler crashed with error html/template:error/404.html: ends in a non-text context: {stateURL delimDoubleQuote urlPartPreQuery jsCtxRegexp attrURL elementNone <nil>}
+2018/08/21 17:52:59.909 [C] [config.go:179] C:/go/src/runtime/asm_amd64.s:509
+2018/08/21 17:52:59.909 [C] [config.go:179] C:/go/src/runtime/panic.go:491
+2018/08/21 17:52:59.909 [C] [config.go:179] D:/goSrc/src/github.com/astaxie/beego/error.go:469
+2018/08/21 17:52:59.909 [C] [config.go:179] D:/goSrc/src/github.com/astaxie/beego/error.go:432
+2018/08/21 17:52:59.909 [C] [config.go:179] D:/goSrc/src/github.com/astaxie/beego/router.go:737
+2018/08/21 17:52:59.909 [C] [config.go:179] C:/go/src/net/http/server.go:2619
+2018/08/21 17:52:59.909 [C] [config.go:179] C:/go/src/net/http/server.go:1801
+2018/08/21 17:52:59.909 [C] [config.go:179] C:/go/src/runtime/asm_amd64.s:2337
+2018/08/21 17:53:31.591 [D] [template.go:69] template Execute err: html/template:error/404.html: ends in a non-text context: {stateURL delimDoubleQuote urlPartPreQuery jsCtxRegexp attrURL elementNone <nil>}
+2018/08/21 17:53:31.591 [C] [config.go:172] the request url is  /updateStatus
+2018/08/21 17:53:31.591 [C] [config.go:173] Handler crashed with error html/template:error/404.html: ends in a non-text context: {stateURL delimDoubleQuote urlPartPreQuery jsCtxRegexp attrURL elementNone <nil>}
+2018/08/21 17:53:31.591 [C] [config.go:179] C:/go/src/runtime/asm_amd64.s:509
+2018/08/21 17:53:31.591 [C] [config.go:179] C:/go/src/runtime/panic.go:491
+2018/08/21 17:53:31.591 [C] [config.go:179] D:/goSrc/src/github.com/astaxie/beego/error.go:469
+2018/08/21 17:53:31.591 [C] [config.go:179] D:/goSrc/src/github.com/astaxie/beego/error.go:432
+2018/08/21 17:53:31.591 [C] [config.go:179] D:/goSrc/src/github.com/astaxie/beego/router.go:737
+2018/08/21 17:53:31.591 [C] [config.go:179] C:/go/src/net/http/server.go:2619
+2018/08/21 17:53:31.591 [C] [config.go:179] C:/go/src/net/http/server.go:1801
+2018/08/21 17:53:31.591 [C] [config.go:179] C:/go/src/runtime/asm_amd64.s:2337
+2018/08/21 17:54:17.937 [D] [template.go:69] template Execute err: html/template:error/404.html: ends in a non-text context: {stateURL delimDoubleQuote urlPartPreQuery jsCtxRegexp attrURL elementNone <nil>}
+2018/08/21 17:54:17.937 [C] [config.go:172] the request url is  /updateStatus
+2018/08/21 17:54:17.937 [C] [config.go:173] Handler crashed with error html/template:error/404.html: ends in a non-text context: {stateURL delimDoubleQuote urlPartPreQuery jsCtxRegexp attrURL elementNone <nil>}
+2018/08/21 17:54:17.937 [C] [config.go:179] C:/go/src/runtime/asm_amd64.s:509
+2018/08/21 17:54:17.937 [C] [config.go:179] C:/go/src/runtime/panic.go:491
+2018/08/21 17:54:17.937 [C] [config.go:179] D:/goSrc/src/github.com/astaxie/beego/error.go:469
+2018/08/21 17:54:17.937 [C] [config.go:179] D:/goSrc/src/github.com/astaxie/beego/error.go:432
+2018/08/21 17:54:17.937 [C] [config.go:179] D:/goSrc/src/github.com/astaxie/beego/router.go:737
+2018/08/21 17:54:17.937 [C] [config.go:179] C:/go/src/net/http/server.go:2619
+2018/08/21 17:54:17.937 [C] [config.go:179] C:/go/src/net/http/server.go:1801
+2018/08/21 17:54:17.937 [C] [config.go:179] C:/go/src/runtime/asm_amd64.s:2337
+2018/08/21 17:55:09.713 [D] [template.go:69] template Execute err: html/template:error/404.html: ends in a non-text context: {stateURL delimDoubleQuote urlPartPreQuery jsCtxRegexp attrURL elementNone <nil>}
+2018/08/21 17:55:09.713 [C] [config.go:172] the request url is  /updateStatus
+2018/08/21 17:55:09.713 [C] [config.go:173] Handler crashed with error html/template:error/404.html: ends in a non-text context: {stateURL delimDoubleQuote urlPartPreQuery jsCtxRegexp attrURL elementNone <nil>}
+2018/08/21 17:55:09.713 [C] [config.go:179] C:/go/src/runtime/asm_amd64.s:509
+2018/08/21 17:55:09.713 [C] [config.go:179] C:/go/src/runtime/panic.go:491
+2018/08/21 17:55:09.713 [C] [config.go:179] D:/goSrc/src/github.com/astaxie/beego/error.go:469
+2018/08/21 17:55:09.713 [C] [config.go:179] D:/goSrc/src/github.com/astaxie/beego/error.go:432
+2018/08/21 17:55:09.713 [C] [config.go:179] D:/goSrc/src/github.com/astaxie/beego/router.go:737
+2018/08/21 17:55:09.713 [C] [config.go:179] C:/go/src/net/http/server.go:2619
+2018/08/21 17:55:09.713 [C] [config.go:179] C:/go/src/net/http/server.go:1801
+2018/08/21 17:55:09.713 [C] [config.go:179] C:/go/src/runtime/asm_amd64.s:2337
+2018/08/21 17:55:46.672 [D] [template.go:69] template Execute err: html/template:error/404.html: ends in a non-text context: {stateURL delimDoubleQuote urlPartPreQuery jsCtxRegexp attrURL elementNone <nil>}
+2018/08/21 17:55:46.672 [C] [config.go:172] the request url is  /updateStatus
+2018/08/21 17:55:46.672 [C] [config.go:173] Handler crashed with error html/template:error/404.html: ends in a non-text context: {stateURL delimDoubleQuote urlPartPreQuery jsCtxRegexp attrURL elementNone <nil>}
+2018/08/21 17:55:46.672 [C] [config.go:179] C:/go/src/runtime/asm_amd64.s:509
+2018/08/21 17:55:46.672 [C] [config.go:179] C:/go/src/runtime/panic.go:491
+2018/08/21 17:55:46.672 [C] [config.go:179] D:/goSrc/src/github.com/astaxie/beego/error.go:469
+2018/08/21 17:55:46.672 [C] [config.go:179] D:/goSrc/src/github.com/astaxie/beego/error.go:432
+2018/08/21 17:55:46.672 [C] [config.go:179] D:/goSrc/src/github.com/astaxie/beego/router.go:737
+2018/08/21 17:55:46.672 [C] [config.go:179] C:/go/src/net/http/server.go:2619
+2018/08/21 17:55:46.672 [C] [config.go:179] C:/go/src/net/http/server.go:1801
+2018/08/21 17:55:46.672 [C] [config.go:179] C:/go/src/runtime/asm_amd64.s:2337
+2018/08/21 17:56:09.234 [D] [template.go:69] template Execute err: html/template:error/404.html: ends in a non-text context: {stateURL delimDoubleQuote urlPartPreQuery jsCtxRegexp attrURL elementNone <nil>}
+2018/08/21 17:56:09.234 [C] [config.go:172] the request url is  /updateStatus
+2018/08/21 17:56:09.234 [C] [config.go:173] Handler crashed with error html/template:error/404.html: ends in a non-text context: {stateURL delimDoubleQuote urlPartPreQuery jsCtxRegexp attrURL elementNone <nil>}
+2018/08/21 17:56:09.234 [C] [config.go:179] C:/go/src/runtime/asm_amd64.s:509
+2018/08/21 17:56:09.234 [C] [config.go:179] C:/go/src/runtime/panic.go:491
+2018/08/21 17:56:09.234 [C] [config.go:179] D:/goSrc/src/github.com/astaxie/beego/error.go:469
+2018/08/21 17:56:09.234 [C] [config.go:179] D:/goSrc/src/github.com/astaxie/beego/error.go:432
+2018/08/21 17:56:09.234 [C] [config.go:179] D:/goSrc/src/github.com/astaxie/beego/router.go:737
+2018/08/21 17:56:09.234 [C] [config.go:179] C:/go/src/net/http/server.go:2619
+2018/08/21 17:56:09.234 [C] [config.go:179] C:/go/src/net/http/server.go:1801
+2018/08/21 17:56:09.234 [C] [config.go:179] C:/go/src/runtime/asm_amd64.s:2337
+2018/08/21 18:18:55.443 [D] [template.go:69] template Execute err: html/template:error/404.html: ends in a non-text context: {stateURL delimDoubleQuote urlPartPreQuery jsCtxRegexp attrURL elementNone <nil>}
+2018/08/21 18:18:55.443 [C] [config.go:172] the request url is  /updateStatus
+2018/08/21 18:18:55.443 [C] [config.go:173] Handler crashed with error html/template:error/404.html: ends in a non-text context: {stateURL delimDoubleQuote urlPartPreQuery jsCtxRegexp attrURL elementNone <nil>}
+2018/08/21 18:18:55.443 [C] [config.go:179] C:/go/src/runtime/asm_amd64.s:509
+2018/08/21 18:18:55.443 [C] [config.go:179] C:/go/src/runtime/panic.go:491
+2018/08/21 18:18:55.443 [C] [config.go:179] D:/goSrc/src/github.com/astaxie/beego/error.go:469
+2018/08/21 18:18:55.443 [C] [config.go:179] D:/goSrc/src/github.com/astaxie/beego/error.go:432
+2018/08/21 18:18:55.443 [C] [config.go:179] D:/goSrc/src/github.com/astaxie/beego/router.go:737
+2018/08/21 18:18:55.443 [C] [config.go:179] C:/go/src/net/http/server.go:2619
+2018/08/21 18:18:55.443 [C] [config.go:179] C:/go/src/net/http/server.go:1801
+2018/08/21 18:18:55.443 [C] [config.go:179] C:/go/src/runtime/asm_amd64.s:2337
+2018/08/28 10:00:01.683 [D] [main.go:28] 	
+					 __   __  _   _____  _                     __   __                
+					 \ \ / / (_) |__  / | |__     ___   _ __   \ \ / /  _   _   _ __  
+					  \ V /  | |   / /  | '_ \   / _ \ | '_ \   \ V /  | | | | | '_ \ 
+					   | |   | |  / /_  | | | | |  __/ | | | |   | |   | |_| | | | | |
+					   |_|   |_| /____| |_| |_|  \___| |_| |_|   |_|    \__,_| |_| |_|
+					                                                                  
+
+2018/08/28 10:00:01.683 [D] [main.go:47] ★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★
+2018/08/28 10:00:01.684 [D] [main.go:48]                                                          
+2018/08/28 10:00:01.684 [D] [main.go:49]                                                          
+2018/08/28 10:00:01.684 [D] [main.go:50]               Yi Zhen Yun Web Service Test 启动           
+2018/08/28 10:00:01.684 [D] [main.go:51]                                                          
+2018/08/28 10:00:01.684 [D] [main.go:52]                                                          
+2018/08/28 10:00:01.684 [D] [main.go:53] ★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★
+2018/08/28 10:00:01.875 [I] [app.go:197] http server Running on http://:9090
